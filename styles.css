@@ -1,11 +1,43 @@
 /*Maak hier jouw CSS!*/
 
 .container {
-    background-color: coral;
+    background-color: hsl(279, 59%, 79%);
     display: grid;
     row-gap: 16px;
     column-gap: 16px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 50 px;
-    grid-template-areas: ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px auto 240px 100px auto 50px;
+}
+
+.item {
+    background-color: hsl(275, 70%, 69%);
+    border: 2px solid hsl(300, 62%, 34%);
+    color: 	hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blok-a {
+
+}
+
+#blok-b {
+
+}
+
+#blok-c {
+
+}
+
+#blok-d {
+
+}
+
+#blok-e {
+
+}
+
+#blok-f {
+
 }
