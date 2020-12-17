@@ -6,7 +6,8 @@
     row-gap: 16px;
     column-gap: 16px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px auto 240px 100px auto 50px;
+    grid-template-rows: 50px 100px 100px;
+    /*grid-template-areas:*/
 }
 
 .item {
@@ -18,26 +19,3 @@
     align-items: center;
 }
 
-#blok-a {
-
-}
-
-#blok-b {
-
-}
-
-#blok-c {
-
-}
-
-#blok-d {
-
-}
-
-#blok-e {
-
-}
-
-#blok-f {
-
-}
