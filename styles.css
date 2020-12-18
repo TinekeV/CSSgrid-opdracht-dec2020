@@ -49,3 +49,9 @@
 #item-f {
     grid-area: blok-f;
 }
+
+
+@media screen and (min-width: 576px) {
+    /*styling toegepast op GROTER dan mobiel*/
+
+}
