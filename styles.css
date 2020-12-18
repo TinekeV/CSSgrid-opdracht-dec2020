@@ -3,11 +3,11 @@
 .container {
     background-color: hsl(279, 59%, 79%);
     display: grid;
-    row-gap: 16px;
-    column-gap: 16px;
+    /*row-gap: 16px;*/
+    /*column-gap: 16px;*/
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 100px 100px;
-    /*grid-template-areas:*/
+    grid-template-rows: 50px 240px auto 50px;
+
 }
 
 .item {
@@ -19,3 +19,26 @@
     align-items: center;
 }
 
+#item-a {
+  grid-area: blok-a;
+}
+
+#item-b {
+    grid-area: blok-b;
+}
+
+#item-c {
+    grid-area: blok-c;
+}
+
+#item-d {
+    grid-area: blok-d;
+}
+
+#item-e {
+    grid-area: blok-e;
+}
+
+#item-f {
+    grid-area: blok-f;
+}
