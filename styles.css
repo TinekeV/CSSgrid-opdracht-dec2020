@@ -1,1 +1,72 @@
 /*Maak hier jouw CSS!*/
+
+.container {
+    background-color: hsl(279, 59%, 79%);
+    display: grid;
+    row-gap: 16px;
+    column-gap: 16px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px auto 50px 50px 50px 50px 50px;
+    grid-template-areas:
+            "blok-a"
+            "blok-b"
+            "blok-c"
+            "blok-d"
+            "blok-e"
+            "."
+            "blok-f";
+}
+
+.item {
+    background-color: hsl(275, 70%, 69%);
+    border: 2px solid hsl(300, 62%, 34%);
+    color: 	hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+#item-a {
+  grid-area: blok-a;
+}
+
+#item-b {
+    grid-area: blok-b;
+}
+
+#item-c {
+    grid-area: blok-c;
+}
+
+#item-d {
+    grid-area: blok-d;
+}
+
+#item-e {
+    grid-area: blok-e;
+}
+
+#item-f {
+    grid-area: blok-f;
+}
+
+
+@media screen and (min-width: 576px) {
+    /*styling toegepast op GROTER dan mobiel*/
+    .container {
+        background-color: hsl(279, 59%, 79%);
+        display: grid;
+        row-gap: 16px;
+        column-gap: 16px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 50px 190px 100px auto 50px;
+        grid-template-areas:
+            "blok-a blok-c blok-c"
+            "blok-b blok-c blok-c"
+            "blok-b blok-e blok-d"
+            "blok-b blok-e ."
+            "blok-f blok-f blok-f";
+
+    }
+}
